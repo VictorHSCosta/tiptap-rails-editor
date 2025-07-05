@@ -11,8 +11,15 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@tiptap/extension-color": "^2.24.2",
+    "@tiptap/extension-list-item": "^2.24.2",
+    "@tiptap/extension-text-style": "^2.24.2",
+    "@tiptap/react": "^2.24.2",
+    "@tiptap/starter-kit": "^2.24.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.28.0",
@@ -29,6 +36,8 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.2.0",
     "prettier": "^3.6.2",
+    "sass-embedded": "^1.89.2",
     "vite": "^7.0.0"
-  }
+  },
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af"
 }
